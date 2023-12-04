@@ -8,5 +8,9 @@ namespace L8UkolFarma
 {
     public class Slepice : Zvire, ISnasiVejce
     {
+        public Slepice(string jmeno) : base(jmeno)
+        {
+
+        }
     }
 }

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace L8UkolFarma
 {
-    public class Husa : Zvire, ISnasiVejce
+    public interface INechaSePohladit
     {
-        public Husa(string jmeno) : base(jmeno)
-        {
-        }
+
     }
 }

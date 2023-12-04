@@ -13,5 +13,10 @@ namespace L8UkolFarma
         {
             return "Ahoj, já jsem " + Jmeno;
         }
+
+        public Zvire(string jmeno)
+        {
+            Jmeno = jmeno;
+        }
     }
 }
