@@ -7,13 +7,18 @@ using System.Threading.Tasks;
 
 namespace L8UkolFarma
 {
-    public class Husa : Zvire, ISnasiVejce
+    public class Husa : Zvire, ISnasiVejce, INechaSePohladit
     {
         public int MesicniNosnost;
         public int VajecVHnizde = 0;
         public Husa(string jmeno, string druh, int mesicniNosnost) : base(jmeno, druh)
         {
             MesicniNosnost = mesicniNosnost;
+        }
+
+        public void PohladimeZvire()
+        {
+            Console.WriteLine("Opatrně, občas klovu.");
         }
 
         public void SbirameVejce()
