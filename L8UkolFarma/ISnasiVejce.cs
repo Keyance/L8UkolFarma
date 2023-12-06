@@ -8,6 +8,7 @@ namespace L8UkolFarma
 {
     public interface ISnasiVejce
     {
-
+        public int SnasiVejce(int pocetDni);
+        public void SbirameVejce();
     }
 }

@@ -8,6 +8,6 @@ namespace L8UkolFarma
 {
     public interface INechaSePohladit
     {
-
+        public void PohladimeZvire();
     }
 }

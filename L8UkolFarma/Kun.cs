@@ -11,5 +11,10 @@ namespace L8UkolFarma
         public Kun(string jmeno) : base(jmeno)
         {
         }
+
+        public void PohladimeZvire()
+        {
+            Console.WriteLine("Čmuf, čmuf, rád bych i pamlsek.");
+        }
     }
 }
