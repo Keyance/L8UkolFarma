@@ -10,9 +10,9 @@ namespace L8UkolFarma
     {
         public int DenniNosnost;
         public int VajecVHnizde = 0;
-        public Slepice(string jmeno, string druh) : base(jmeno, druh)
+        public Slepice(string jmeno, string druh, int denniNosnost) : base(jmeno, druh)
         {
-
+            DenniNosnost = denniNosnost;
         }
 
         public void SbirameVejce()

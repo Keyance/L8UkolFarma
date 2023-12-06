@@ -9,12 +9,11 @@ namespace L8UkolFarma
 {
     public class Husa : Zvire, ISnasiVejce
     {
-        public bool JeSchopnaSnestVejce;
         public int MesicniNosnost;
         public int VajecVHnizde = 0;
-        public Husa(string jmeno, string druh) : base(jmeno, druh)
+        public Husa(string jmeno, string druh, int mesicniNosnost) : base(jmeno, druh)
         {
-
+            MesicniNosnost = mesicniNosnost;
         }
 
         public void SbirameVejce()
