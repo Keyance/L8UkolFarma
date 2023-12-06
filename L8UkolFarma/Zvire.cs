@@ -10,7 +10,7 @@ namespace L8UkolFarma
     {
         public string Jmeno;
         public string Druh;
-        public string OzviSe(string Jmeno)
+        public string OzviSe()
         {
             return "Ahoj, já jsem " + Jmeno;
         }
