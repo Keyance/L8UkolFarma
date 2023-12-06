@@ -6,8 +6,8 @@ Husa nina = new Husa ("Nina", "Česká husa", 15);
 farma.Add (nina);
 Slepice adelka = new Slepice("Adélka", "Šumavanka", 2);
 farma.Add (adelka);
-Kun ferka = new Kun("Ferda", "Hucul");
-farma.Add (ferka);
+Kun ferda = new Kun("Ferda", "Hucul");
+farma.Add (ferda);
 
 foreach (Zvire zvire in farma)
 {
@@ -19,3 +19,6 @@ adelka.SbirameVejce();
 
 nina.SnasiVejce(45);
 nina.SbirameVejce();
+
+ferda.PohladimeZvire();
+nina.PohladimeZvire();
