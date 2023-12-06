@@ -20,7 +20,7 @@ namespace L8UkolFarma
             Console.WriteLine("Počet vajec v hnizde je teď: " + VajecVHnizde);
             Console.Write("Kolik vajec chcete vzít?");
             int vzato = Convert.ToInt32(Console.ReadLine());
-            if (vzato < VajecVHnizde)
+            if (vzato > VajecVHnizde)
             {
                 Console.WriteLine("V hnízdě není dost vajec.");
             }

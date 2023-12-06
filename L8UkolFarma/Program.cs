@@ -13,3 +13,9 @@ foreach (Zvire zvire in farma)
 {
     Console.WriteLine(zvire.OzviSe());
 }
+
+adelka.SnasiVejce(7);
+adelka.SbirameVejce();
+
+nina.SnasiVejce(45);
+nina.SbirameVejce();

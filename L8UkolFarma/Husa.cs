@@ -26,7 +26,7 @@ namespace L8UkolFarma
             Console.WriteLine("Počet vajec v hnizde je teď: " + VajecVHnizde);
             Console.Write("Kolik vajec chcete vzít?");
             int vzato = Convert.ToInt32(Console.ReadLine());
-            if (vzato < VajecVHnizde)
+            if (vzato > VajecVHnizde)
             {
                 Console.WriteLine("V hnízdě není dost vajec.");
             } else
@@ -38,9 +38,9 @@ namespace L8UkolFarma
 
         public int SnasiVejce(int pocetDni)
         {
-            int sneseno = pocetDni * (MesicniNosnost/30);
-            VajecVHnizde += sneseno;
-            return sneseno;
+            double sneseno = pocetDni * (MesicniNosnost/30.0);
+            VajecVHnizde += (int)sneseno;
+            return (int)sneseno;
         }
     }
 }
