@@ -8,7 +8,7 @@ namespace L8UkolFarma
 {
     public class Kun : Zvire, INechaSePohladit
     {
-        public Kun(string jmeno) : base(jmeno)
+        public Kun(string jmeno, string druh) : base(jmeno, druh)
         {
         }
 

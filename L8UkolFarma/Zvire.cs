@@ -15,15 +15,10 @@ namespace L8UkolFarma
             return "Ahoj, já jsem " + Jmeno;
         }
 
-        public Zvire(string jmeno, string druh)
+        protected Zvire(string jmeno, string druh)
         {
             Jmeno = jmeno;
             Druh = druh;
-        }
-
-        protected Zvire(string jmeno)
-        {
-            Jmeno = jmeno;
         }
     }
 }
